@@ -27,7 +27,7 @@ function foo(data1){
   <img src="${data1[i].flags.svg}" class="card-img-top" alt="${data1[i].flags.alt}">
   <div class="card-body">
   <h5 class="card-title">Country Name: ${data1[i].name.common}</h5>
-    <p class="card-text">Capital: ${data1[i].capital}</p>
+    <p class="card-text"><b>Capital: ${data1[i].capital}<b></p>
   </div>
 </div>`
       row.append(col);
